@@ -1,0 +1,29 @@
+.navbar{display:none;
+    width: 700px;
+    @media (min-width:1115px ){
+        display: flex;
+        padding-left: 15px;
+}
+}
+
+.navbar_items{
+    list-style: none;
+    display: flex;
+    font-weight: 400;
+    margin-left: 60px;
+}
+
+
+.nav-bar-link{text-decoration: none;
+    color: black;
+    display: flex;
+    font-size: 18px;
+    margin-right: 55px;
+    height: 112px;
+    padding-top: 42px;
+    justify-content: center;
+    &:hover{
+        border-bottom: 5px solid rgb(241, 89, 0);
+        font-weight: 500;
+    }
+    }

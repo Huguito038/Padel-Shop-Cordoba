@@ -1,0 +1,51 @@
+.carrito_compra{width: 360px;height: 260px;
+    box-shadow: 3px 3px 10px;
+    border-radius: 9px;
+    position: absolute;
+    top: 30px;
+    background-color: white;
+    right: 8px;
+    display: none;
+    @media (min-width:1115px ){
+        top:55px;right: 68px;
+    }
+}
+
+
+.carrito_titulo{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding: 24px;font-weight: 700;border-bottom: 1px solid hsl(220,14%,75%);
+    display: flex;justify-content: space-between;
+
+
+}
+
+
+
+.carrito_compra-detalles{display: flex;padding: 25px;align-items: center;}
+
+
+.imagen_carro{width: 50px;border-radius: 10px;margin-right: 15px;}
+
+
+.detalle-paleta-carrito{color: rgb(124, 127, 134);
+    &-precio{color: rgb(117, 119, 126);}
+
+}
+
+.precio-ya-carro{color: black;font-weight: 600;}
+
+.basura{font-weight: 800;color:rgb(124, 127, 134);position: absolute;right: 15px;
+&:hover{cursor: pointer;}
+}
+
+
+.carrito-compra-checkout{margin-left: 15px; width: 90%;margin-top: 5px;height: 57px;
+    background-color:hsl(26,100%,55%);border-radius: 8px;display: flex;color: white
+    ;letter-spacing:1.5px;justify-content: center;font-weight: 700;align-items: center;border: none;
+        &:hover{cursor: pointer;
+        opacity: 0.5;}}
+
+.cruz{
+    &:hover{cursor: pointer;
+}}
+
+.boton_txt{font-size: 20px;font-family: Georgia, 'Times New Roman', Times, serif;}

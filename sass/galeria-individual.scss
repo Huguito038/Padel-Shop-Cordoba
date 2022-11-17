@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+.galeria-individual{
+    margin-top: 45px;
+    padding-top: 45px;
+    border-top: 1px solid gray;
+    @media (min-width:1115px ){margin-top: 0px;padding-top: 05px;
+        border-top: none}
+}
+
+
+
+.miniatura-indi{width: 150px;
+        @media (min-width:1115px ){
+        display: block;  
+        }
+}
+
+.galeria-imgs-individual{
+    display: flex;
+    justify-content: space-around;
+    @media (min-width:1115px ){
+    margin-top: 15px;
+    height: 150px;
+    width: 500px;
+    margin-left: 15px;
+
+}
+}
+
+
+.miniatura-indi{
+    width: 65px;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    @media (min-width:1115px ){
+    display:inline;
+    width: 125px;
+    height: 140px;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 10px;}
+    transition: .3s ease all;
+}
+
+
+#p1{
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+        transform: scale(1.02);
+    }
+}
+#p2{
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+        transform: scale(1.02);
+    }
+}
+#p3{
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+        transform: scale(1.02);
+    }
+}
+#p4{
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+        transform: scale(1.02);
+    }
+}
+
+
+.galeria_imagen-contenedor-individual{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    transition: .3s ease all;
+    background-size: cover;
+    background-position-y: -65px;
+    border-radius: 5px;
+    @media (min-width:1115px ){
+        width: 455px;
+        height: 472px;
+        transition: .3s ease all;
+        position: relative;
+        left: 39px;
+        border-radius: 25px;
+        &:hover{transform: scale(1.006);}
+    }
+    }
+
+.imagen_grande{width: 100%;height: 100%;border-radius: 15px;object-fit: cover;}
+
+.miniatura-indi{object-fit: cover;}
+
+.pop{display: flex;width: 600px;justify-content: space-between;height: 50px;align-items: center;width: 100%;
+    @media (min-width:1115px ){width: 50%;}
+}
+
+.titulos-detalles-sub{font-weight: 400;font-family: 'Lato', sans-serif;letter-spacing: 1px;font-size: 21px;}
+
+.descripcion-titulos-detalles{font-family: 'Lato', sans-serif;font-size: 19px;font-weight: 700;}
+
+
+.titulos-detalles{font-size: 35px;font-weight: 700;font-family: 'Lato', sans-serif;letter-spacing: 5px;margin-bottom: 45px;}
+
+.detalles-descripcion{margin-bottom: 25px;}
+
+.descripcion-producto{margin-bottom: 65px;}
+
+.detalles_foto{width: 205px;}
+
